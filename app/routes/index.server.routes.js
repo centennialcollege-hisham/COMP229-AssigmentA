@@ -5,6 +5,9 @@ const indexController = require('../controllers/index.server.controller')
 /* GET home page. */
 router.get('/', indexController.home);
 
+/* GET home page. */
+router.get('/home', indexController.home);
+
 /* GET Project page. */
 router.get('/projects', indexController.projects);
 
