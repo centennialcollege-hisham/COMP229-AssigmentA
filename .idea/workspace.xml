@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8d42d53-7f5f-4b9e-8946-3a6e87d0d3db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/docs/resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/hisham.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/public/content/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/scripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP229-AssigmentA/views/index.ejs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A2u7pXoIPUexvfaTP9K9Upu0xR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "14.19.3",
+    "javascript.nodejs.core.library.typings.version": "14.18.20",
+    "last_opened_file_path": "/Users/hsanimeh/Desktop/College/COMP229/assigmentA/public/assets/images",
+    "nodejs_interpreter_path": "/Users/hsanimeh/.nvm/versions/node/v14.19.3/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+      <recent name="$PROJECT_DIR$/public/assets/css" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/docs" />
+      <recent name="$PROJECT_DIR$/public/assets/css" />
+      <recent name="$PROJECT_DIR$/app/views/partials/layout" />
+      <recent name="$PROJECT_DIR$/app/views/partials/main" />
+      <recent name="$PROJECT_DIR$/app/views/partials" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="COMP229-AssigmentA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="COMP229-AssigmentA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8d42d53-7f5f-4b9e-8946-3a6e87d0d3db" name="Changes" comment="" />
+      <created>1654219837655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654219837655</updated>
+      <workItem from="1654219839990" duration="21065000" />
+      <workItem from="1654286194942" duration="11000" />
+      <workItem from="1654286326590" duration="96000" />
+      <workItem from="1654286570067" duration="4716000" />
+      <workItem from="1654291578095" duration="44000" />
+      <workItem from="1654291657428" duration="110000" />
+      <workItem from="1654291811802" duration="14402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
