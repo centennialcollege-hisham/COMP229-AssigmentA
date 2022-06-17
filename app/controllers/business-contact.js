@@ -1,9 +1,12 @@
 let express = require('express');
-let router = express.Router();
-let mongoose = require('mongoose');
 
 //connect to our Business Contact Model
 let Contact = require('../model/business-contact');
+
+
+function displayName(req) {
+    return req.user ? req.user.displayName : ''
+}
 
 //showing Business Contact
 module.exports.displayContactList = (req, res, next) => {
@@ -11,7 +14,11 @@ module.exports.displayContactList = (req, res, next) => {
         if (err) {
             return console.error(err);
         } else {
-            res.render('business-contact/list', {title: 'Business Contact', ContactList: contactResponse});
+            res.render('business-contact/list', {
+                title: 'Business Contact',
+                ContactList: contactResponse,
+                displayName: displayName(req)
+            });
         }
     });
 }
@@ -19,16 +26,15 @@ module.exports.displayContactList = (req, res, next) => {
 //showing add page
 module.exports.displayAddPage = (req, res, next) => {
     res.render('business-contact/add', {
-        title: 'Add Contact'
+        title: 'Add Contact',
+        displayName: displayName(req)
     });
 }
 
 //processing the add page using module exports
 module.exports.processAddPage = (req, res, next) => {
     let newContact = Contact({
-        "name": req.body.name,
-        "phone": req.body.phone,
-        "email": req.body.email
+        "name": req.body.name, "phone": req.body.phone, "email": req.body.email
     });
 
     Contact.create(newContact, (err, Contact) => {
@@ -52,7 +58,10 @@ module.exports.displayEditPage = (req, res, next) => {
         } else {
             //refresh and go to Business Contact
             res.render('business-contact/edit', {
-                title: 'Update Contact', contactList: editContact
+                title: 'Update Contact',
+                contactList: editContact,
+                displayName: displayName(req)
+
             });
         }
     })
@@ -62,10 +71,7 @@ module.exports.displayEditPage = (req, res, next) => {
 module.exports.processEditPage = (req, res, next) => {
     let id = req.params.id;
     let editedContact = Contact({
-        "_id": id,
-        "name": req.body.name,
-        "phone": req.body.phone,
-        "email": req.body.email
+        "_id": id, "name": req.body.name, "phone": req.body.phone, "email": req.body.email
     });
 
     Contact.updateOne({_id: id}, editedContact, (err) => {
