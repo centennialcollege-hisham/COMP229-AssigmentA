@@ -2,6 +2,9 @@
   "name": "comp229-assigmenta",
   "version": "0.0.0",
   "private": true,
+  "main": "server.js",
+  "author": "Hisham Abu Sanimeh",
+  "description": "Started in Assigment 2",
   "scripts": {
     "start": "node server.js"
   },
@@ -14,8 +17,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
+    "mongoose": "^6.3.8",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   }
 }
-

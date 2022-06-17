@@ -1,18 +1,16 @@
 <!--
-File Name - footer.ejs
+File Name - index.ejs
 Student Name - Hisham Abu Sanimeh
 Student ID - 301289364
 Date - 3-06-2022
 -->
 
 
-<!--make footer only in home page -->
-<% if (title == "Home") { %>
-    <footer class="footer mt-auto py-2 fixed-bottom bg-gradient">
-        <div class="container">
-            <span> Hisham Abu Sanimeh - 301289364</span>
-        </div>
-    </footer>
-<% } else { %>
-<% } %>
+    <% include main_footer.ejs %>
+</main>
 
+<script src="jquery/dist/jquery.slim.min.js"/>
+<script src="bootstrap/dist/js/bootstrap.min.js"/>
+<script src="javascripts/app.js"/>
+</body>
+</html>
