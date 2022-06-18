@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8d42d53-7f5f-4b9e-8946-3a6e87d0d3db" name="Changes" comment="" />
+    <list default="true" id="a8d42d53-7f5f-4b9e-8946-3a6e87d0d3db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/index.server.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/index.server.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/pages/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/pages/contact.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/shared/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/shared/main_footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/shared/main_nav.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,26 +46,30 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "14.19.3",
     "javascript.nodejs.core.library.typings.version": "14.18.20",
-    "last_opened_file_path": "/Users/hsanimeh/Desktop/College/COMP229/assigmentA/public/assets/images",
+    "last_opened_file_path": "/Users/hsanimeh/Desktop/College/COMP229/assigmentA/app/views/business-contact",
     "nodejs_interpreter_path": "/Users/hsanimeh/.nvm/versions/node/v14.19.3/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/images" />
-      <recent name="$PROJECT_DIR$/public/assets/css" />
-      <recent name="$PROJECT_DIR$/public/assets" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/javascripts" />
+      <recent name="$PROJECT_DIR$/app/views/business-contact" />
+      <recent name="$PROJECT_DIR$/app/views/partials/shared" />
+      <recent name="$PROJECT_DIR$/app/views/partials" />
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/views/partials/pages/business-contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/assets/docs" />
-      <recent name="$PROJECT_DIR$/public/assets/css" />
-      <recent name="$PROJECT_DIR$/app/views/partials/layout" />
-      <recent name="$PROJECT_DIR$/app/views/partials/main" />
-      <recent name="$PROJECT_DIR$/app/views/partials" />
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/views/partials/pages/business-contact" />
+      <recent name="$PROJECT_DIR$/app/views/partials/pages/list" />
+      <recent name="$PROJECT_DIR$/app/views/partials/pages" />
+      <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,7 +101,10 @@
       <workItem from="1654286570067" duration="4716000" />
       <workItem from="1654291578095" duration="44000" />
       <workItem from="1654291657428" duration="110000" />
-      <workItem from="1654291811802" duration="16105000" />
+      <workItem from="1654291811802" duration="19393000" />
+      <workItem from="1654427738681" duration="1088000" />
+      <workItem from="1655403377270" duration="9135000" />
+      <workItem from="1655510630235" duration="14441000" />
     </task>
     <servers />
   </component>
@@ -96,6 +121,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/controllers/business-contact.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

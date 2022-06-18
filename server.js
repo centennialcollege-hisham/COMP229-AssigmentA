@@ -7,7 +7,7 @@
 <!--Student Name - Hisham Abu Sanimeh-->
 <!--Student ID - 301289364-->
 
-var app = require('./app');
+var app = require('./config/app');
 var debug = require('debug')('comp229-assigmenta:server');
 var http = require('http');
 
@@ -15,7 +15,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3001');
+var port = normalizePort(process.env.PORT || '3002');
 app.set('port', port);
 
 /**
