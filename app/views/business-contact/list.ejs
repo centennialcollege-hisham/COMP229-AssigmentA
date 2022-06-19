@@ -1,0 +1,65 @@
+<!--
+File Name - list.ejs
+Student Name - Hisham Abu Sanimeh
+Student ID - 301289364
+Date - 17-06-2022
+-->
+
+
+<% include ../partials/shared/header.ejs %>
+
+
+<% if (title == "Business Contact") { %>
+
+    <main class="container">
+        <div class="row">
+            <div class="offset-md-1 col-md-10">
+                <div class="px-4 py-4 my-4 text-center">
+                    <h1 class="display-5 fw-bold"> <%= title %> Table</h1>
+                </div>
+
+
+                <a href="/business-contact/add" class="btn btn-primary btn-sm" role="button">
+                    <i class="fas fa-plus-square"></i> Add a Contact</a>
+
+                <br><br>
+
+
+                <table class="table table-bordered table-striped table-hover" id="listTable">
+                    <!-- Header Row-->
+                    <tr>
+                        <th class="text-center">Contact Name</th>
+                        <th class="text-center">Contact Number</th>
+                        <th class="text-center">Email</th>
+                        <th class="text-center"></th>
+                        <th class="text-center"></th>
+                    </tr>
+
+                    <!-- Repeatable Template Row -->
+
+                    <% for(let i = 0; i < ContactList.length; i++) { %>
+                        <tr>
+                            <td class="text-center"><%= ContactList[i].name %></td>
+                            <td class="text-center"><%= ContactList[i].phone %></td>
+                            <td class="text-center"><%= ContactList[i].email %></td>
+                            <td class="text-center">
+                                <a href="/business-contact/edit/<%= ContactList[i]._id %>"
+                                   class="btn btn-secondary btn-sm"><i
+                                            class="fas fa-edit"></i> Edit </a>
+                            </td>
+                            <td class="text-center">
+                                <a href="/business-contact/delete/<%= ContactList[i]._id %>"
+                                   class="btn btn-danger btn-sm"><i
+                                            class="far fa-trash-alt"></i> Delete </a>
+                            </td>
+                        </tr>
+                    <% } %>
+                </table>
+            </div>
+        </div>
+    </main>
+
+
+<% } else { %>
+<% } %>
+<% include ../partials/shared/footer.ejs %>
